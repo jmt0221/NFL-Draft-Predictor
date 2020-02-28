@@ -46,11 +46,11 @@ Like I mentioned above Logistic Regression requires us to create interaction ter
 
 
 <p align="center">
-<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/logistic_reg.png" width="900" height="250">
+<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/logistic_reg.png" width="800" height="200">
 </p>
 
 This model did a great job at catching almost all of the players drafted in the top two rounds. After training was complete the area under the Reciever Operating Characteristic curve was: AUC = 0.8281
 
 <p align="center">
-<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/roc.png" width="600" height="500">
+<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/roc.png" width="700" height="600">
 </p>
