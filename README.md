@@ -22,7 +22,7 @@ I used BeautifulSoup and Selenium to scrape the following data for players in th
 
 Due to a lot of missing data for linemen and defensive players, I kept the data focused on offence and decided to use only wide receivers and running backs for a combined total of about 600 observations. As you can see from the graph below, the two positions have different relationships with the other variables, so when we use models such as Logistic Regression we need to create interaction terms between the position variable and some of the other variables.
 
-<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/interaction.png" width="400" height="500">
+<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/interaction.png" width="800" height="400">
 
 I also ended up dropping the total receiving and rushing yards since they were heavily correlated with average yards and rush attempts. Lasly I One Hot Encode all the categorical variables, but leave the continues variables as is since scaling didn't improve the models performance. 
 
