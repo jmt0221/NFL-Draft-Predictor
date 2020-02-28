@@ -25,7 +25,17 @@ Due to a lot of missing data for linemen and defensive players, I kept the data 
 <img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/interaction.png" width="800" height="300">
 </p>
 
-I also ended up dropping the total receiving and rushing yards since they were heavily correlated with average yards and rush attempts. Lasly I One Hot Encode all the categorical variables, but leave the continues variables as is since scaling didn't improve the models performance. 
+I drop the total receiving and rushing yards since they were heavily correlated with average yards and rush attempts. After, the categorical variables are one hot encoded, but the continuous variables are left unscaled since it didn't improve performance. When I started modeling I realized that there was a heavy class imbalance since I was predicting if a player is in the top 2 rounds. To solve this I use SMOTE to upsample the data and rebalance the dataset so our models don't lean towards a single prediction.
 
 
-# Model
+# Models
+
+## Model 1: Random Forest with Grid Search
+
+With Random Forest, it was not needed to create interaction terms since it looks at each variable while weighing in previous splits, so it automatically separates the different positions. I used Grid Search to navigate the hyper parameters of the algorithm to create the best fit. 
+
+I took the Random Forest and looked at which features were used the most to classify each observation, this allowed me to create a graph and evaluate the feature importance in my dataset.
+
+<p align="center">
+<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/feature_importance.png" width="400" height="500">
+</p>
