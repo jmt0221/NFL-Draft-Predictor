@@ -37,5 +37,5 @@ With Random Forest, it was not needed to create interaction terms since it looks
 I took the Random Forest and looked at which features were used the most to classify each observation, this allowed me to create a graph and evaluate the feature importance in my dataset.
 
 <p align="center">
-<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/feature_importance.png" width="400" height="500">
+<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/feature_importance.png" width="600" height="500">
 </p>
