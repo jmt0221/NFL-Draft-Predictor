@@ -46,5 +46,5 @@ Like I mentioned above Logistic Regression requires us to create interaction ter
 
 
 <p align="center">
-<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/logistic_reg.png" width="600" height="500">
+<img src="https://github.com/jmt0221/NFL-Draft-Predictor/blob/master/images/logistic_reg.png" width="800" height="300">
 </p>
